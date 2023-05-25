@@ -3,7 +3,7 @@
 
 > [**Target Active Speaker Detection with Audio-visual Cues**](https://arxiv.org/abs/2305.12831)<br>
 > [Yidi Jiang](https://scholar.google.com/citations?user=le6gC58AAAAJ&hl=en&oi=ao), [Ruijie Tao](https://scholar.google.com/citations?user=sdXITx8AAAAJ&hl=en), [Zexu Pan](https://scholar.google.com/citations?user=GGIBU74AAAAJ&hl=en), [Haizhou Li](https://colips.org/~eleliha/)<br>
-> National University of Singapore, Singapore; The Chinese University of Hong Kong, Shenzhen, China
+> NUS; CUHK <br>
 > INTERSPEECH 2023
 
 ![image](https://github.com/Jiang-Yidi/TS-TalkNet/blob/main/overview.png)
