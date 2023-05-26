@@ -4,8 +4,6 @@ from scipy.io import wavfile
 import soundfile
 from torchvision.transforms import RandomCrop
 
-
-
 def generate_audio_set(dataPath, batchList):
     audioSet = {}
     for line in batchList:
