@@ -26,12 +26,15 @@ python train.py --dataPathAVA AVADataPath --download
 
 #### Face-speaker library
 
-You should run the data_prep/face_enroll_speech.py file to construct the face-speaker library and save to 'enrollmentPath'.
+You should run the data_prep/face_enroll_speech.py file to construct the face-speaker library and save the enrollement audios for target speaker to 'enrolPath'.
+
+The face recognition model we used is a [ResNet50-Glint](https://github.com/deepinsight/insightface/tree/master/recognition/arcface_torch) model trained on the Glint360K dataset. 
+The pretrained V-Glint.model you can find [here](https://drive.google.com/drive/folders/1W3c6V5bfGZTfwJLJq6ORSXXCLAsG7l2U).
 
 #### Training
 Then you can train TalkNet in AVA end-to-end by using:
 ```
-python train.py --dataPathAVA AVADataPath --enroll_speech_folder enrollmentPath
+python train.py --dataPathAVA AVADataPath --enroll_speech_folder enrolPath
 ```
 `exps/exps1/score.txt`: output score file, `exps/exp1/model/model_00xx.model`: trained model,
 
