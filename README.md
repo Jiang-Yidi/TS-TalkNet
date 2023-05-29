@@ -59,4 +59,3 @@ Please cite the following if our paper or code is helpful to your research.
 }
 ```
 
-
